@@ -151,6 +151,7 @@ header nav button:hover,.btn:hover{
 .aboutImg p{
   margin: 20px;
   text-align: center;
+  color: #999;
 }
 .aboutImg .btn{
   margin-left: 20%;
@@ -307,6 +308,13 @@ header nav button:hover,.btn:hover{
   }
   header nav{
     display: none;
+  }
+  .card{
+    flex-wrap: wrap;
+  }
+  .total{
+    font-size: 15px;
+    font-weight: 300;
   }
   
 }
