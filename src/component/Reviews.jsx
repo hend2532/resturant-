@@ -4,7 +4,7 @@ import review2 from '../assets/2.jpg'
 function Reviews() {
     const [data,setData]=useState(false)
   return (
-    <div className="review" id="review">
+    <div className="review" id="reviews">
       {
         data ? (
             <div className='one'>
@@ -23,7 +23,7 @@ function Reviews() {
       <button onClick={()=>setData(!data)}></button>
       <button onClick={()=>setData(!data)}></button>
     </div>
-    
+
   ) 
 }
 
