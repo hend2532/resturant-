@@ -102,11 +102,11 @@ header nav button:hover,.btn:hover{
 .total h1{
   color: white;
   text-align: center;
-
+  font-size: 22px;
 }
 .total h2{
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   font-weight: 400;
 }
@@ -151,7 +151,7 @@ header nav button:hover,.btn:hover{
 .aboutImg p{
   margin: 20px;
   text-align: center;
-  color: #999;
+  color: rgb(67, 3, 3);
 }
 .aboutImg .btn{
   margin-left: 20%;
@@ -170,6 +170,7 @@ header nav button:hover,.btn:hover{
 }
 .Cards{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -309,12 +310,12 @@ header nav button:hover,.btn:hover{
   header nav{
     display: none;
   }
-  .card{
+  .cards{
     flex-wrap: wrap;
   }
-  .total{
-    font-size: 15px;
-    font-weight: 300;
+  #root > div > div.total > div > h1,#root > div > div.total > div > h2{
+    font-size: 13px !important;
+    font-weight: normal !important;
   }
   
 }
